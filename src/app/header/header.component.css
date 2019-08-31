@@ -1,0 +1,89 @@
+.spacer {
+  flex: 0;
+}
+
+.toolbar {
+  height: 70px;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 0%, 25%);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0 0;
+}
+
+.nav_list{
+  padding: 0;
+}
+.navlist_top{
+  padding-top: 14px;
+}
+.nav_list .navlist_top .nav-item a{
+  color: aqua;
+}
+.nav_account_list{
+  padding-top: 14px;
+}
+.nav_country{
+  padding: 7px 0 0 0;
+}
+.nav_account_list .nav_country img{
+  width: 23px;
+}
+.nav_country:after{
+  content: ' \02C7';
+  font-size: 33px;
+  position: absolute;
+  padding: 10px;
+  top: 6px;
+  color: white;
+}
+.content_space{
+  padding-left: 35px;
+}
+.nav_account_list .content_space img{
+  width: 35px;
+  cursor: pointer;
+  padding-top: 4px;
+}
+.fa_friends{
+  font-size: 18px;
+  color: white;
+}
+.nav_friends{
+  padding-top: 4px;
+}
+.fa_usericon{
+  font-size: 18px;
+  color: white;
+}
+.nav_user_content:after{
+  content: "Account";
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+  /* Responsive Styles */
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    .nav_responsive{
+      padding-top: 85px;
+    }
+    .res_head{
+      display: none;
+    }
+    .res_acount_list{
+      bottom: 114px;
+    }
+    .nav_account_list{
+      padding-left: 85px;
+      padding-top: 15px;
+    }
+    .nav_user_content:after{
+      bottom: 10px;
+    }
+  }

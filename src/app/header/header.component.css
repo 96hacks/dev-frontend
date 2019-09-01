@@ -7,48 +7,43 @@
   margin: -8px;
   display: flex;
   align-items: center;
-  background-color: hsl(0, 0%, 25%);
+  background-color: #2d2a2e;
   color: rgb(255, 255, 255);
   font-weight: 600;
 }
-
-.toolbar img {
-  margin: 0 0;
+.toolbar .too_container{
+  padding: 0;
 }
-
+.toolbar .too_container .tool_image{
+  padding: 0;
+}
+.tool_image .nav_responsive{
+  padding: 0.5rem 0rem;
+  padding-top: 10px;
+}
+.tool_image .nav_responsive img{
+  width: 90px;
+}
+.too_container .nav_list .navlist_top{
+  font-size: 13px;
+  color: #4e7d91;
+}
 .nav_list{
   padding: 0;
 }
 .navlist_top{
   padding-top: 14px;
 }
-.nav_list .navlist_top .nav-item a{
-  color: aqua;
+.navlist_top .nav-item a{
+  color: #90d3f0;;
 }
 .nav_account_list{
   padding-top: 14px;
 }
-.nav_country{
-  padding: 7px 0 0 0;
-}
-.nav_account_list .nav_country img{
-  width: 23px;
-}
-.nav_country:after{
-  content: ' \02C7';
-  font-size: 33px;
-  position: absolute;
-  padding: 10px;
-  top: 6px;
-  color: white;
-}
-.content_space{
-  padding-left: 35px;
-}
 .nav_account_list .content_space img{
   width: 35px;
   cursor: pointer;
-  padding-top: 4px;
+  padding-top: 5px;
 }
 .fa_friends{
   font-size: 18px;
@@ -61,20 +56,22 @@
   font-size: 18px;
   color: white;
 }
+.account_user{
+  padding-left: 16px;
+  padding-top: 7px;
+}
 .nav_user_content:after{
   content: "Account";
-    position: absolute;
-    bottom: 20px;
-    right: 30px;
-    cursor: pointer;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 13px;
 }
   /* Responsive Styles */
   @media screen and (min-width: 320px) and (max-width: 479px) {
     .nav_responsive{
       padding-top: 85px;
-    }
-    .res_head{
-      display: none;
     }
     .res_acount_list{
       bottom: 114px;

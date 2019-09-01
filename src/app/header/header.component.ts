@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   countryImage = '../../assets/icons/india.svg';
-  searchImage = './../assets/icons/ic_search.png';
+  searchImage = '../../assets/icons/ic_search.png';
+  appLogo = './../assets/icons/logo.jpeg';
   constructor() { }
 
   ngOnInit() {

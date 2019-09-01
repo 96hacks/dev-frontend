@@ -1,22 +1,21 @@
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
-  <div class="container">
+  <div class="container too_container">
     <div class="row">
-      <div class="col-sm-2 col-md-2">
+      <div class="col-sm col-md tool_image">
         <!-- Image and text -->
         <nav class="navbar nav_responsive">
           <a class="navbar-brand" href="#">
             <img
               width="40"
               alt="Angular Logo"
-              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="
+              src={{appLogo}}
             />
-           <span class="res_head">MonsterPost</span>
           </a>
         </nav>
 
       </div>
-      <div class="col-sm-7 col-md-7 nav_list">
+      <div class="col-sm-9 col-md-9 nav_list">
           <ul class="nav navlist_top">
               <li class="nav-item">
                 <a class="nav-link active" href="#">MOST VIEWED</a>
@@ -34,17 +33,11 @@
       </div>
       <div class="col-sm col-md res_acount_list">
           <ul class="nav nav_account_list">
-              <li class="nav-item">
-                  <a class="nav-link nav_country" href="#"><img src="{{countryImage}}"></a>
-              </li>
               <li class="nav-item content_space">
                   <img src="{{searchImage}}">
               </li>
-              <li class="nav-item nav_friends">
-                <a class="nav-link" href="#"><i class="fas fa-user-friends fa_friends"></i></a>
-              </li>
               <li class="nav-item nav_friends nav_user_content">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="far fa-user fa_usericon"></i></a>
+                <a class="nav-link account_user" href="#" tabindex="-1" aria-disabled="true"><i class="far fa-user fa_usericon"></i></a>
               </li>
             </ul>
       </div>

@@ -11,6 +11,9 @@
   color: rgb(255, 255, 255);
   font-weight: 600;
 }
+.head_toolbar{
+  margin: 0;
+}
 .toolbar .too_container{
   padding: 0;
 }

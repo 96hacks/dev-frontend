@@ -7,7 +7,7 @@
   margin: -8px;
   display: flex;
   align-items: center;
-  background-color: #2d2a2e;
+  background-color: #243238;
   color: rgb(255, 255, 255);
   font-weight: 600;
 }
@@ -29,7 +29,7 @@
 }
 .too_container .nav_list .navlist_top{
   font-size: 13px;
-  color: #4e7d91;
+  color: #80C2F5;
 }
 .nav_list{
   padding: 0;
@@ -38,7 +38,7 @@
   padding-top: 14px;
 }
 .navlist_top .nav-item a{
-  color: #90d3f0;;
+  color: #80C2F5;
 }
 .nav_account_list{
   padding-top: 14px;
@@ -57,7 +57,7 @@
 }
 .fa_usericon{
   font-size: 18px;
-  color: white;
+  color: #DCE6EA;
 }
 .account_user{
   padding-left: 16px;
@@ -70,6 +70,7 @@
   right: 20px;
   cursor: pointer;
   font-size: 13px;
+  color: #DCE6EA;
 }
   /* Responsive Styles */
   @media screen and (min-width: 320px) and (max-width: 479px) {

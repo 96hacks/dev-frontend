@@ -1,5 +1,5 @@
 .ur_footer{
-  background-color: #007bff;
+  background-color: #2699FB;
 }
 .footer_container{
   padding: 0;
@@ -44,7 +44,7 @@
   font-weight: 500;
 }
 .footer_container .contact_form input{
-  background-color: #007bff;
+  background-color: #2699FB;
   color: white;
   border: 1px solid white;
 }
